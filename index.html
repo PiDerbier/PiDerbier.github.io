@@ -1,7 +1,49 @@
 <!doctype html>
 <html>
 <head>
-<title>
+
+    <style type="text/css">
+    h1{
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteriation-count: infinite;
+    }
+        @-moz-keyframe slidein{
+            from {
+                margin-left: 100%;
+                width: 300%
+            }
+            75%{
+                front-size: 300%;
+                margin-left: 25%;
+                width: 150%;
+            }
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+        @-webkit-keyframes slidein {
+            from{ 
+                margin-left: 100%;
+                width:300%
+            }
+            75%{
+                front-size: 700%;
+                margin-left: 25%;
+                width: 150%;
+            }
+            to{
+                margin-left:0%;
+                width: 100%;
+            }
+        }
+    </style>
+    
+    <title>
     sandbox
     </title>
     </head>
